@@ -37,6 +37,7 @@ public class MainActivity extends AppCompatActivity {
                     mStoryIndex = 3;
                     break;
                 case 3:
+                case 4:
                     mStoryTextView.setText(R.string.T6_End);
                     mButtonTop.setVisibility(View.GONE);
                     mButtonDown.setVisibility(View.GONE);
@@ -46,11 +47,6 @@ public class MainActivity extends AppCompatActivity {
                     mButtonTop.setText(R.string.T3_Ans1);
                     mButtonDown.setText(R.string.T3_Ans2);
                     mStoryIndex = 4;
-                    break;
-                case 4:
-                    mStoryTextView.setText(R.string.T6_End);
-                    mButtonTop.setVisibility(View.GONE);
-                    mButtonDown.setVisibility(View.GONE);
                     break;
 
 
@@ -75,14 +71,11 @@ public class MainActivity extends AppCompatActivity {
                     mButtonDown.setVisibility(View.GONE);
                     break;
                 case 3:
-                    mStoryTextView.setText(R.string.T5_End);
-                    mButtonTop.setVisibility(View.GONE);
-                    mButtonDown.setVisibility(View.GONE);
-                    break;
                 case 4:
                     mStoryTextView.setText(R.string.T5_End);
                     mButtonTop.setVisibility(View.GONE);
                     mButtonDown.setVisibility(View.GONE);
+                    break;
             }
         });
 
